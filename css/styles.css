@@ -114,6 +114,7 @@ img {
   line-height: 1.87;
   letter-spacing: -1px;
   text-transform: uppercase;
+  margin-bottom: 87px;
 }
 .services-item {
   color: var(--main-color);
