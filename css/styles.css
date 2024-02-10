@@ -77,7 +77,6 @@ img {
   text-decoration: none;
   padding: 10px;
   position: relative;
-  transition: ;
 }
 .nav-link:hover, 
 .nav-link:focus {
@@ -170,6 +169,7 @@ img {
 .contact-us-input {
   width: 455px;
   padding: 12px 20px 21px;
+  transition: border-color 250ms ease-in;
 }
 .contact-us-input:hover,
 .contact-us-input:focus,
@@ -201,6 +201,7 @@ img {
   resize: none;
   width: 458px;
   height: 212px;
+  transition: border-color 250ms ease-in;
 }
 .contact-us-bth {
   color: #fff;
@@ -212,6 +213,7 @@ img {
   background-color: var(--accent-color);
   border: none;
   border-radius: 10px;
+  transition: opacity 250ms ease-in;
 }
 .contact-us-bth:hover, 
 .contact-us-bth:focus {
