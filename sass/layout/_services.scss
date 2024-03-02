@@ -1,0 +1,42 @@
+.services {
+    padding-top: 110px;
+    padding-bottom: 118px;
+}
+
+.services-list {
+    display: flex;
+    gap: 56px;
+}
+
+.services-item::before {
+    content: '';
+    display: flex;
+    width: 70px;
+    height: 69px;
+    border: 3px solid var(--accent-color);
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(../images/Services-svg-3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.services-item:nth-child(2)::before {
+    background-image: url(../images/services-svg-2.svg);
+}
+.services-item:nth-child(3)::before {
+    background-image: url(../images/services-svg-1.svg);
+}
+.services-item {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 18px;
+    line-height: 4.16;
+    letter-spacing: -0.45px;
+}
+.services-item-text {
+    color: #777;
+    font-family: RobotoSlab;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.35px;
+}
