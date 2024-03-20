@@ -2,8 +2,7 @@
     padding-top: 44px;
 }
 .header .container {
-    display: flex;
-    align-items: center;
+    @include flex (0);
 }
 .logo {
     color: var(--accent-color);
@@ -16,8 +15,7 @@
     margin-left: auto;
 }
 .nav-list {
-    display: flex;
-    gap: 10px;
+    @include flex(10px);
 }
 .nav-link {
     color: var(--accent-color);

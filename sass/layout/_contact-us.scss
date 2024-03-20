@@ -4,17 +4,14 @@
     padding-bottom: 115px;
 }
 .contact-us-form {
-    display: flex;
-    align-items: center;
-    gap: 28px;
+    @include flex(28px);
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .contact-us-form-box {
-    display: flex;
     flex-direction: column;
-    gap: 28px;
+    @include flex(28px);
 }
 
 .contact-us-input {
@@ -40,11 +37,9 @@
 .contact-us-textarea::placeholder {
     color: #BBB;
     font-family: Montserrat;
-    font-size: 14px;
+    @include text(normal, -0.35px);
     font-weight: 700;
-    letter-spacing: -0.35px;
-    text-transform: uppercase;
-}
+} 
 
 .contact-us-textarea {
     font-size: 14px;
